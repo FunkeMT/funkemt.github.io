@@ -1,23 +1,25 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
+title: FunkeMT
+url: "https://funkemt.github.io"
 baseurl:
 google_analytics_key:
-show_full_navigation: true
+show_full_navigation: false
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product documentation template for Jekyll.
+description: FunkeMT Own Wiki.
 author:
-  name:
-  email:
+  name: Markus Funke
+  email: funkemarkus@me.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Edition Template
+  name: Markus Funke
   links:
-    - https://github.com/CloudCannon/edition-jekyll-template
+    - https://github.com/FunkeMT
+    - https://www.xing.com/profile/Markus_Funke25
+    - https://medium.com/@FunkeMT
 
 # -----
 # Build
