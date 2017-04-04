@@ -42,6 +42,9 @@ collections:
     title: Documentation
     permalink: /:path/
     output: true
+  glossary:
+    title: Glossary
+    output: true
 
 defaults:
   -

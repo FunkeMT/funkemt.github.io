@@ -1,0 +1,11 @@
+---
+title: Glossary
+category: Glossary
+---
+
+{% for glossaryentry in site.glossary %}
+  <div class="glossaryentry">
+    <h2>{{ glossaryentry.title }}</h2>
+    {{ glossaryentry.content }}
+  </div>
+{% endfor %}

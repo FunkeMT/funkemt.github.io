@@ -50,6 +50,18 @@
 				</ul>
 
 				<ul>
+					<li class="nav-item top-level {% if "Glossary" == page.category %}current{% endif %}">
+						<a href="{{ site.baseurl }}/glossary">Glossary</a>
+							{% assign glossaryentries = site.glossary | sort: 'name' %}
+							<ul>
+								{% for glossaryentry in glossaryentries %}
+									<li class="nav-item {% if glossaryentry.url == page.url %}current{% endif %}">
+										<a href="{{ site.baseurl }}{{ glossaryentry.url }}">{{ glossaryentry.title }}</a>
+									</li>
+								{% endfor %}
+							</ul>
+					</li>
+
 					{% assign grouped = site.docs | group_by: 'category' %}
 					{% for group in grouped %}
 						<li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
