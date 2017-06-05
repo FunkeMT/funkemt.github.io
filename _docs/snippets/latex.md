@@ -3,7 +3,7 @@ title: Latex
 category: Snippets
 ---
 
-> https://de.sharelatex.com/learn/Positioning_images_and_tables
+> <https://de.sharelatex.com/learn/Positioning_images_and_tables>
 
 ### Basic images
 
